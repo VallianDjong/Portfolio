@@ -44,18 +44,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // Form submission
-    const contactForm = document.querySelector('.contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
+    // // Form submission
+    // const contactForm = document.querySelector('.contact-form');
+    // if (contactForm) {
+    //     contactForm.addEventListener('submit', function(e) {
+    //         e.preventDefault();
             
-            // Here you would typically send the form data to a server
-            // For demonstration, we'll just show an alert
-            alert('Thank you for your message! I will get back to you soon.');
-            this.reset();
-        });
-    }
+    //         // Here you would typically send the form data to a server
+    //         // For demonstration, we'll just show an alert
+    //         alert('Thank you for your message! I will get back to you soon.');
+    //         this.reset();
+    //     });
+    // }
     
     // Animation on scroll
     const animateOnScroll = function() {
